@@ -1,0 +1,10 @@
+// Curl for heart rate
+curl -X POST http://localhost:3000/process-health-query -H "Content-Type: application/json" -d "{\"query\": \"What is my heart rate?\", \"userLanguage\": \"en\"}"
+"Ngicela ungitshele izinga lenhliziyo yami"
+
+// Curl for blood oxygen
+curl -X POST http://localhost:3000/process-health-query -H "Content-Type: application/json" -d "{\"query\": \"What is my blood oxygen?\", \"userLanguage\": \"en\"}"
+"Bheka i-oxygen egazini lami"
+
+// Curl for trends
+curl -X POST http://localhost:3000/process-health-query -H "Content-Type: application/json" -d "{\"query\": \"show my trends\", \"userLanguage\": \"en\"}"
